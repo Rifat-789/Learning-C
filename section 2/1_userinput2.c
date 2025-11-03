@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include <string.h> //useful functions for strings
 
 int main(){
 
@@ -16,19 +16,18 @@ int main(){
     scanf("%f", &gpa);
 
     printf("Enter Your Grade : ");
-    scanf(" %c", &grade);
+    scanf(" %c", &grade);  // the space before % for changing from number to char (cancles new line buffer)
 
-    getchar();
+    getchar();  // does the same , but for char
     printf("Enter Your Full Name : ");
-    fgets(name, sizeof(name), stdin);
-    name[strlen(name) - 1] = '\0';
+    fgets(name, sizeof(name), stdin); //scans char with spaces
+    name[strlen(name) - 1] = '\0'; // cancles the new line problem after the char output
 
 
     printf("%s\n", name);
     printf("%d\n", age);
     printf("%.2f\n", gpa);
     printf("%c\n", grade);
-    //printf("%s\n", name);
 
 
 
