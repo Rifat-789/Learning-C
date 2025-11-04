@@ -2,7 +2,7 @@
 #include<math.h>
 
 int main(){
-
+//this is a geo calc
     double radius = 0;
     double area = 0;
     double surfaceArea = 0;
