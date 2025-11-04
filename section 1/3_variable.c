@@ -2,7 +2,7 @@
 
 int main(){
 
-    int age = 22;
+    int age = 22;   //declare variable type
     int year = 2025;
     int quantity = 3;
 

@@ -3,7 +3,7 @@
 
 int main(){
 
-    bool isOnline = true;
+    bool isOnline = true;  //it shows only two outputs- true, false
     bool isStudent = 1;
 
 

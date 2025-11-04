@@ -7,7 +7,6 @@ int main(){
     /*
     this 
     is 
-    also
     a
     comment
     */

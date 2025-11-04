@@ -5,7 +5,7 @@ int main(){
 
     int age = 0;
     float gpa = 0.0f; //f for float, not double
-    char grade = '\0'; //This is null terminator
+    char grade = '\0'; //This is null terminator . it tells where to stop
     char name[30] = "";
 
 

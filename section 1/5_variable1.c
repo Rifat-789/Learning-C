@@ -10,7 +10,7 @@ int main(){
    float price = 19.99;
    float temp = 18.7;
 
-   double pi = 3.14159265359;
+   double pi = 3.14159265359;  //double is a long type of float
    double e = 2.7182818284;
 
    char grade ='A' ;
@@ -30,7 +30,7 @@ int main(){
    printf("The price is %f\n", price);
    printf("The tempereture is %f\n", temp);
 
-   printf("The value of pi is %.15lf\n", pi);
+   printf("The value of pi is %.15lf\n", pi);  //lf for long float
    printf("The value of e is %.15lf\n", e);
 
    printf("Your grade is %c\n", grade);

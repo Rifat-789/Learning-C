@@ -18,7 +18,7 @@ int main(){
     //x --;
 
     //x = x + 2;
-    x += 3;
+    x += 3;  // ads 3 to x
 
     printf("%d\n", x);
 

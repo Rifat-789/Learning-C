@@ -2,7 +2,7 @@
 
 int main(){
 
-    float price1 = 19.99;
+    float price1 = 19.99;  //floats are lnumbers with points
     float price2 = 1.50;
     float price3 = -100;
 

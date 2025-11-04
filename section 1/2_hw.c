@@ -5,7 +5,7 @@ int main(){
     printf("This is my homework\n");
     printf("And I have done it");
 
-    // This is also a homework
+    // This is a homework
 
     /*I
     have
