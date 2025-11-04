@@ -2,7 +2,7 @@
 #include<math.h>
 
 int main(){
-
+// this is a compound interest claculator
     double principal = 0;
     double rate = 0;
     int years = 0;
