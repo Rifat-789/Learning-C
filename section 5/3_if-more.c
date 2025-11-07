@@ -7,7 +7,7 @@ int main(){
 
     printf("Ente your name: ");
     fgets(name, sizeof(name), stdin);
-    name[strlen(name) - 1 ] = '\0';
+    name[strlen(name) - 1 ] = '\0'; // to remove the new line charecter.
 
     if (strlen(name) == 0)
     {

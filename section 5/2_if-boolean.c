@@ -5,7 +5,7 @@ int main(){
 
     bool isStudent = false;
 
-    if (isStudent)
+    if (isStudent)   // no need to use isStudent == true here.
     {
         printf("You are a student");
     }
