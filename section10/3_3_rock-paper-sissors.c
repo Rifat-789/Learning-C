@@ -2,8 +2,8 @@
 #include<stdlib.h>
 #include<time.h>
 
-int getComputerChoice();
-int getUserChoice();
+int getComputerchoice();
+int getUserchoice();
 void checkWinner(int userChoice, int computerChoice);
 
 
@@ -13,8 +13,8 @@ int main(){
 
     printf("*** ROCK PAPER SCICCORS ***\n");
 
-    int userChoice = getUserChoice();
-    int computerChoice = getComputerChoice();
+    int userChoice = getUserchoice();
+    int computerChoice = getComputerchoice();
 
     switch (userChoice)
     {
@@ -48,11 +48,11 @@ int main(){
     return 0;
 }
 
-int getComputerChoice(){
+int getComputerchoice(){
     return (rand() % 3) + 1;
 }
 
-int getUserChoice(){
+int getUserchoice(){
     
     int choice = 0;
 
