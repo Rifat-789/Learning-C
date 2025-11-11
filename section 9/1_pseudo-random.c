@@ -4,7 +4,7 @@
 
 int main(){
 
-    srand(time(0));
+    srand(time(0));  // this sets the seed
 
     int min = 10;
     int max = 20;
