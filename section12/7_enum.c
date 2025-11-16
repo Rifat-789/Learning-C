@@ -8,9 +8,16 @@ typedef enum{SUNDAY = 1, MONDAY = 2, TUESDAY = 3, WEDNESSDAY = 4, THURSDAY = 5, 
 int main(){
 
     //enum Day today = SUNDAY;
-    Day today = SUNDAY;
+    Day today = TUESDAY;
 
-    printf("%d", today);
+    if (today == SUNDAY || today == SATURDAY)
+    {
+        printf("It's Weekend");
+    }
+    else{
+        printf("It's weekday");
+    }
+    
 
     return 0;
 }
