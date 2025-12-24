@@ -1,0 +1,2 @@
+Hello all
+This is another way to write in C
